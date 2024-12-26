@@ -11,7 +11,7 @@ from flask import Flask, request
 import urllib.parse
 
 # إعداد البوت
-bot = telebot.TeleBot('7347607126:AAH9C09wOGfeXpq8Uk0c3VOrCgcee2yzjHU')
+bot = telebot.TeleBot('7635515617:AAGNyaeOnuNgomCgacoGF_R6rLZlkUjOEQE')
 # إعداد Aliexpress API
 aliexpress = AliexpressApi('509744', 'VMA05mD9CZloQdHTzhggTU6vxKJSZ9q8',
                            models.Language.AR, models.Currency.USD, 'default')
@@ -264,6 +264,6 @@ def handle_games_callback(call):
 
 
 if __name__ == '__main__':
-    webhook_url = "https://romantic-irina-bot55-5c546600.koyeb.app/"
+    webhook_url = "https://creepy-malinda-it-bot-7639e785.koyeb.app/"
     bot.set_webhook(url=webhook_url)
     app.run(host='0.0.0.0', port=8000)
